@@ -1,0 +1,59 @@
+  name: myapp
+  description: A new Flutter project.
+  publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+  version: 1.0.0+1
+  environment:
+    sdk: ">=2.12.0 <3.0.0"
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    teta_cms:
+      git: 
+        url: https://github.com/teta-so/cms.git
+        path: teta_cms
+        ref: main
+    
+    cupertino_icons:
+    auth_buttons:
+    supabase_flutter:
+    supabase:
+    lottie:
+    material_design_icons_flutter: 5.0.6595
+    youtube_player_iframe: 
+    google_fonts:
+    url_launcher: ^6.1.2
+    map:
+    latlng:
+    badges:
+    liquid_swipe:
+    camera:
+    paged_vertical_calendar:
+    tcard:
+    intl:
+    just_audio:
+    location: 
+    concentric_transition: 
+    bouncing_widget: 
+    clipboard: 
+    webviewx: 
+    http:
+    custom_refresh_indicator: 
+    splash_screen_view: 
+    purchases_flutter: 
+    flutter_stripe: 3.1.0
+    flutter_staggered_animations:
+    sizer: ^2.0.15
+    
+
+  dependency_overrides:
+    platform: ^3.1.0
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+  flutter:
+    uses-material-design: true
+    assets:
+      - assets/teta-app.png
+  
